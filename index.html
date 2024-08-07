@@ -1,0 +1,61 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" conent="Hari Haran">
+    <meta name="description" content="Student Registration system">
+    <meta name="keywords" content="Registration">
+    <title>Student Registration Form</title>
+    <script src="index.js"></script> 
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="title">EnrollEase:Student Registration</h1>
+        <p id="description">EnrollEase is an easy-to-use platform that helps students access important information and simplifies the enrollment process. It cuts down on paperwork and makes everything quick and convenient, all in one place.</p>
+    </header>
+     <main>
+            <section id="details">
+                <form id="stu-form">
+                    <label for="sname" class="stu">Student Name:</label><br>
+                    <input id="sname" type="text" required><br>
+
+                    <label for="sid" class="stu">Student Id:</label><br>
+                    <input id="sid" type="number" required><br>
+
+                    <label for="cname" class="stu">Class:</label><br>
+                    <input id="cname" type="text" required><br>
+
+                    <label for="email" class="stu" >Email:</label><br>
+                    <input id="email" type="email" required><br>
+
+                    <label for="num" class="stu">Contact Number:</label><br>
+                    <input id="num" type="number" maxlength="10"  required><br>
+
+                    <button type="button" id="butn">Register</button>
+                </form>
+            </section>
+            <section id="student-records">
+                <h2 id="data">Registered Students</h2>
+                <table id="studentTable">
+                    <thead>
+                        <tr id="trow">
+                            <th>Student Name</th>
+                            <th>Student ID</th>
+                            <th>Class</th>
+                            <th>Email ID</th>
+                            <th>Contact No.</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </section>
+    </main>
+    <footer>
+        
+    </footer>
+
+</body>
+</html>

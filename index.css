@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background-color:  #FFF1C9;
+}
+#title,#description{
+   padding:10px;
+   color:rgb(47, 43, 43);
+   text-align: center;
+}
+#description{
+    font-size:large;
+    font-weight: 600;
+}
+#butn1{
+    border-radius: 5px;
+    padding:3px;
+    position: relative;
+    left:80%;
+    font-weight: 600;
+    background-color: #4199fd;
+    color:white;
+}
+#details{
+    border:1px solid  linear-gradient(to bottom right, rgba(12, 81, 242, 0.801) , rgb(25, 223, 134));
+    margin-top:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.stu{
+    font-weight: 600;
+}
+#details input{
+    margin:5px;
+    position :relative;
+    left:20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px  rgb(139, 164, 233);
+    padding:5px;
+}
+#butn{
+    margin-top:20px;
+     border-radius: 5px;
+     padding:3px;
+     position: relative;
+     left:50%;
+     font-weight: 600;
+     background-color: #4199fd;
+     color:white;
+}
+#data{
+    text-align: center;
+    margin-top:50px;
+}
+#studentTable{ width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#studentTable th, #studentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#studentTable th {
+    background-color: #f2f2f2;
+}
